@@ -1,0 +1,32 @@
+{
+  "name": "mimicreative/yii2-metismenu",
+  "description": "Metis Menu Asset Bundle for Yii2",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "MF Haqqi",
+      "email": "me@haqqi.net",
+      "homepage": "http://haqqi.net",
+      "role": "Creator"
+    }
+  ],
+  "keywords": ["yii2", "metismenu", "menu"],
+  "type": "yii2-extension",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "yiisoft/yii2": ">=2.0.0",
+    "onokumus/metismenu": "2.*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "mimicreative\\metismenu\\": "src/"
+    }
+  }
+}
