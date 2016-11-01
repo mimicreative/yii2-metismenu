@@ -17,6 +17,10 @@ class MetisMenuAsset extends AssetBundle {
    */
   public $sourcePath = '@vendor/onokumus/metismenu';
 
+  public $depends = [
+    'yii\web\JqueryAsset'
+  ];
+
   /**
    * @inherit
    */
