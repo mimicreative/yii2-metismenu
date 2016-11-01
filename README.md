@@ -25,7 +25,7 @@ Use as the asset bundle in Yii2 View files.
 
 ```
 // write this in your view file or layout
-\mimicreative\metismenu\MetisMenuAsset::register($this);
+\mimicreative\assets\MetisMenuAsset::register($this);
 ```
 
 Or maybe you prefer to include it in your asset dependency.
@@ -33,7 +33,7 @@ Or maybe you prefer to include it in your asset dependency.
 ```
 public $depends = [
   // ...
-  'mimicreative\metismenu\MetisMenuAsset',
+  'mimicreative\assets\MetisMenuAsset',
   // ...
 ];
 ```

@@ -6,7 +6,7 @@
  * Time: 9:37 PM
  */
 
-namespace mimicreative\metismenu;
+namespace mimicreative\assets;
 
 
 use yii\web\AssetBundle;
